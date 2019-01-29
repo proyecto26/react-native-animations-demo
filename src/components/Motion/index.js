@@ -61,7 +61,7 @@ class MotionScreen extends Component {
   }
 
   generateRandom() {
-    let items = times(6, (i) => ({ id: i, value: random(10, 500) }))
+    let items = times(6, (i) => ({ value: random(10, 500) }))
     this.setState({ items })
   }
 
