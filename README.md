@@ -1,4 +1,8 @@
-# Animate with React Native!
+# Animate with React Native! ⏯
+
+![Animate with React Native](img/animate_with_react_native.png)
+
+## Demo
 
 ![Lottie](img/Lottie.png) | ![Motion](img/Motion.png)
 :---: | :---: |
