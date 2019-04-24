@@ -22,7 +22,7 @@ export class BarChart extends Component {
 
     return (
       <View style={[Styles.barContainer, contentContainerStyle]}>
-        <TranslateY animateOnDidMount initialValue={height} value={value} {...rest}>
+        <TranslateY startOnDidMount animateOnDidMount initialValue={height} value={value} {...rest}>
           {labelTop}
           <View style={[style, {height}]}>
             <View style={{height: valueY}}>
